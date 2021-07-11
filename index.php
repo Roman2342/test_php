@@ -54,9 +54,9 @@
           else {
             var sum = JSON.parse(data);
             $('#error').hide();
-            $('#vat').text(sum.vat.toFixed(1));
-            $('#tax').text(sum.tax.toFixed(1));
-            $('#sum_without').text(sum.sum_without.toFixed(1));
+            $('#vat').text(sum.vat.toFixed(2));
+            $('#tax').text(sum.tax.toFixed(2));
+            $('#sum_without').text(sum.sum_without.toFixed(2));
             $('#resultBlock').show();
           }
         }
